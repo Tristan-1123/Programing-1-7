@@ -1,1 +1,1 @@
-print("Band")
+pip install stanfordkarel
