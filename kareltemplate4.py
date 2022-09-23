@@ -101,7 +101,7 @@ def rib(self) -> bool:
 
 
 
-def main():
+def main(self):
     """ Karel code goes here! """
     kt = ktools()
     kt.h()
