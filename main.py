@@ -1,1 +1,1 @@
-pip install stanfordkarel
+print("pip install stanfordkarel")

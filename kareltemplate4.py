@@ -4,7 +4,7 @@ from stanfordkarel import *
 class ktools:
   def m(self):
     """Shorthand for Move"""
-    move()
+    Move()
     
   def tl(self):
     """ Turn left"""
@@ -64,75 +64,71 @@ class ktools:
     self.m()
     self.m()
     self.m()
-
-  def e():
-    self.tr()
-    self.m()
-    self.ta()
-    self.put5()
-    """" From alley 6 """
-    self.tr()
-    self.m()
-    self.put2()
-    self.ta()
-    self.m()
-    self.m()
-    self.tl()
-    self.m()
-    self.m()
-    self.tl()
-    self.m()
-    self.put2()
-    """Row 3 Colum 8 facing right"""
-    self.ta()
-    self.m()
-    self.m()
-    self.tl()
-    self.m()
-    self.m()
-    self.tl()
-    self.m()
-    self.put2()
-    self.m()
-    self.m()
-
-  def l(): 
-    self.tl()
-    self.put5()
-    self.ta()
-    self.m()
-    self.m()
-    self.m()
-    self.m()
-    self.m()
-    self.tl()
-    self.m()
-    self.put2()
-    self.m()
-    self.m()
     
 
-  def o():
-    self.tl() 
-    self.put5()
-    self.tr()
-    self.m()
-    self.put2()
-    self.m()
-    self.tr()
-    self.put5()
-    
-   
+
+
+def fic(self) -> bool:
+   """front is clear"""
+   return front_is_clear()
+
+def fib(self) -> bool:
+   """Front is blocked"""
+   return not self.fic()
   
-def main():  
-     """ Karel code goes here! """
-     kt = ktools()
-     kt.h()
-     kt.e()
-     kt.l()
-     kt.l()
-     kt.o()
-     pass
+def ric(self) -> bool:
+   """right is clear"""
+   self.tr()
+   if self.fic():
+     self.tl()
+     return True
+   self.tl()
+   return False
+  
+def mazemove(self):
+   if self.fib():
+    self.tl()
+   else: 
+     self.m()
+     if self.ric():
+       self.tr()
+       self.m()
+       
+     
+
+def rib(self) -> bool:
+  return not self.ric()
+
+
+
+def main():
+    """ Karel code goes here! """
+    kt = ktools()
+    kt.h()
+    pass
+
+def mm(self,num):
+  """Move Multiple"""
+  for number in range (0, num):
+    self.m()
+
+def putm(self, num):
+  """put multiple"""
+  for i in range(num -1 ):
+    self.put()
+    self.m()
+    self.put()
+
+def pickm(self,num):
+   """pick multiple"""
+   for _ in range(num-1):
+     self.pick()
+     self.m()
+   self.pick()
+
+
+
+
 
 
 if __name__ == "__main__":
