@@ -12,14 +12,14 @@ class ktools:
   
   def tr(self):
     """Turn Right"""
-    Self.tl()
-    Self.tl()
-    Self.tl()
+    self.tl()
+    self.tl()
+    self.tl()
 
   def ta(self):
     """ Turn around"""
-    Self.tl()
-    Self.tl()
+    self.tl()
+    self.tl()
 
   def put(self):
     put_beeper()
@@ -77,8 +77,6 @@ def h(self):
     self.m()
     
 
-
-
 def fic(self) -> bool:
    """front is clear"""
    return front_is_clear()
@@ -132,10 +130,10 @@ def rib(self) -> bool:
 
 
 def main():
-    """ Karel code goes here! """
-    kt = ktools()
-    kt.k28()
-    pass
+      """ Karel code goes here! """
+      kt = ktools()
+      kt.k28()
+      pass
   
 if __name__ == "__main__":
     run_karel_program()
