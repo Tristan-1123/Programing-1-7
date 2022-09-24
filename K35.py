@@ -124,7 +124,7 @@ class ktools:
     
    
   
-def main(self):  
+def main():  
      """ Karel code goes here! """
      kt = ktools()
      kt.h()
