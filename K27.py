@@ -12,14 +12,14 @@ class ktools:
   
   def tr(self):
     """Turn Right"""
-    Self.tl()
-    Self.tl()
-    Self.tl()
+    self.tl()
+    self.tl()
+    self.tl()
 
   def ta(self):
     """ Turn around"""
-    Self.tl()
-    Self.tl()
+    self.tl()
+    self.tl()
 
   def pick(self):
     pick_beeper()
