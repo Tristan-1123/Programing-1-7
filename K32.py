@@ -64,8 +64,55 @@ class ktools:
     self.m()
     self.m()
     self.m()
-    
 
+  
+def k32(self):
+   self.m()
+   self.m()
+   self.m()
+   self.m()
+   self.m()
+   self,ta()
+   self.m()
+   self.tl()
+   self.m()
+   self.m()
+   self.m()
+   self.ta()
+   self.put()
+   self.m()
+   self.m()
+   self.put()
+   self.m() 
+   self.m()
+   self.put()
+   self.m()
+   self.m()
+   self.put()
+   self.tl()
+   self.m()
+   self.tl()
+   self.m()
+   self.put()
+   self.m()
+   self.m()
+   self.put()
+   self.m()
+   self.m()
+   self.put()
+   self.tr()
+   self.m()
+   self.tr()
+   self.m()
+   self.put()
+   self.m()
+   self.m()
+   self.put()
+   self.tl()
+   self.m()
+   self.tl()
+   self.m()
+   self.put()
 
 
 def fic(self) -> bool:
@@ -104,6 +151,7 @@ def rib(self) -> bool:
 def main():
     """ Karel code goes here! """
     kt = ktools()
+    kt.k32()
     pass
   
 if __name__ == "__main__":
