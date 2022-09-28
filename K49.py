@@ -4,7 +4,7 @@ from time import sleep
 class ktools:
   def m(self):
     """Shorthand for Move"""
-    Move()
+    move()
     
   def tl(self):
     """ Turn left"""
