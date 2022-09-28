@@ -123,13 +123,6 @@ class ktools:
             self.m()
         self.pick()
 
-    def pickm2(self, num):
-        """Put Multiple"""
-        for i in range(num - 1):
-            self.pick()
-            self.m()
-            self.m()
-            self.pick()
 
     def pos(self):
         self.mm(5)
@@ -138,13 +131,72 @@ class ktools:
     def k34(self):
      self.pos()
      self.m()
-     self.pickm2(4)
+     self.pick()
+     self.mm(2)
+     self.pick()
+     self.mm(2)
+     self.pick()
+     self.mm(2)
+     self.pick()
+     self.ta()
+     self.m()
+     self.tr()
+     self.m()
+     self.pick()
+     self.tl()
+     self.m()
+     self.tr()
+     self.m()
+     self.pick()
+     self.tl()
+     self.m()
+     self.tr()
+     self.m()
+     self.pick()
+     self.tl()
+     self.m()
+     self.tl()
+     self.m()
+     self.pick()
+     self.tr()
+     self.m()
+     self.tr()
+     self.tr()
+     self.tr()
+     self.m()
+     self.pick()
+     self.tl()
+     self.mm(2)
+     self.pick()
+     self.tr()
+     self.mm(2)
+     self.pick()
+     self.mm(2)
+     self.pick()
+     self.tl()
+     self.m()
+     self.tl()
+     self.m()
+     self.pick()
+     self.m()
+     self.tr()
+     self.m()
+     self.pick()
+     self.ta()
+     self.mm(4)
+     self.pick()
+     self.ta()
+     self.m()
+     self.tr()
+     self.m()
+     self.pick()
+
 
 
 def main():
     """ Karel code goes here! """
     kt = ktools()
-
+    kt.k34()
     pass
 
 

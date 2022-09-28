@@ -160,12 +160,12 @@ class ktools:
 
 
 
-   def main():
-      """ Karel code goes here! """
-    
-      kt = ktools()
-    
-      pass
+  def main():
+    """ Karel code goes here! """
+  
+    kt = ktools()
+  
+    pass
 
 
 if __name__ == "__main__":
