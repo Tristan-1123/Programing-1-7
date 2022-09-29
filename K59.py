@@ -87,8 +87,7 @@ class ktools:
 
   def rib(self) -> bool:
     """Right is Blocked"""
-    return not self.ric()    
-  
+    return not self.ric()
 
   def mazemove(self):
     """Maze Move"""
@@ -159,21 +158,16 @@ class ktools:
 
     pass
 
-
-
-  def main():
-    """ Karel code goes here! """
+  def K59(self):
+    self.put5()
+    
   
-    kt = ktools()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.tr()
-    kt.m()
-    while kt.SOB():
-      kt.pick()
-      kt.find()
-    pass
+def main():
+   """ Karel code goes here! """
+    
+   kt = ktools()
+  
+   pass
 
 
 if __name__ == "__main__":

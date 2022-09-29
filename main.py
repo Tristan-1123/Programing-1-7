@@ -1,1 +1,1 @@
-print("pip install stanfordkarel")
+print("Hello World!")
